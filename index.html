@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/images/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Creative - Design Agency</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__logo">
+          <a href="#">
+            <img src="assets/images/desktop/logo.svg" alt="Creative" />
+          </a>
+        </div>
+        <div class="mobile-nav">
+          <button class="mobile-nav__toggle" aria-label="Toggle mobile navigation"></button>
+          <nav>
+            <ul class="mobile-nav__list">
+              <li class="mobile-nav__item">
+                <a class="mobile-nav__link" href="#">About</a>
+              </li>
+              <li class="mobile-nav__item">
+                <a class="mobile-nav__link" href="#">Service</a>
+              </li>
+              <li class="mobile-nav__item">
+                <a class="mobile-nav__link" href="#">Projects</a>
+              </li>
+              <li class="mobile-nav__item">
+                <a class="mobile-nav__link mobile-nav__link--primary" href="#">Schedule a Call</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a class="header__link" href="#" aria-label="About">
+                <span class="header__link-text">About</span>
+                <span class="header__link-hover">About</span>
+              </a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#" aria-label="Service">
+                <span class="header__link-text">Service</span>
+                <span class="header__link-hover">Service</span>
+              </a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#" aria-label="Projects">
+                <span class="header__link-text">Projects</span>
+                <span class="header__link-hover">Projects</span>
+              </a>
+            </li>
+            <li class="header__item">
+              <a class="header__link header__link--primary" href="#">Schedule a Call</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <section class="hero">
+          <div class="hero__intro">
+            <h1 class="hero__heading">Branding & website design agency</h1>
+            <p class="hero__paragraph">
+              We specialize in visual storytelling by creating cohesive brand and website design solutions for small
+              businesses, giving lasting impressions to audiences in a digital world.
+            </p>
+            <a class="hero__cta" href="#">Learn More</a>
+          </div>
+        </section>
+        <section class="strategy">
+          <img class="strategy__wave" src="assets/images/desktop/bg-pattern-wave-red.svg" alt="" />
+          <picture class="strategy__graphic">
+            <source srcset="assets/images/mobile/image-strategic.jpg" media="(max-width: 25.3125em)" />
+            <source srcset="assets/images/tablet/image-strategic.jpg" media="(max-width: 54.375em)" />
+            <img src="assets/images/desktop/image-strategic.jpg" alt="Person drawing" />
+          </picture>
+          <div class="strategy__cta">
+            <div>
+              <h2><span>Design</span> is strategic.</h2>
+              <p>
+                "A well-crafted design strategy consistently produces desired outcomes and brand awareness. We are firm
+                believers that success lies in creative collaboration with our clients."
+              </p>
+              <a href="#">Schedule a Call</a>
+            </div>
+          </div>
+          <div class="strategy__approach">
+            <h2>Our approach for creating a winning brand</h2>
+          </div>
+          <div class="strategy__steps">
+            <ol class="strategy__list">
+              <li class="strategy__item">
+                <span class="strategy__number">01</span>
+                <h3 class="strategy__heading">Brand Strategy</h3>
+                <p class="strategy__body">
+                  Brand strategy is crucial for long-term success. Outshining comptetitors and capturing the target
+                  audience are key.
+                </p>
+              </li>
+              <li class="strategy__item">
+                <span class="strategy__number">02</span>
+                <h3 class="strategy__heading">Brand Design</h3>
+                <p class="strategy__body">
+                  Keeping the brand design unique and meaningful helps in communicating the brand's timeless value
+                  effectively.
+                </p>
+              </li>
+              <li class="strategy__item">
+                <span class="strategy__number">03</span>
+                <h3 class="strategy__heading">Web Design</h3>
+                <p class="strategy__body">
+                  A beautifully crafted website is the best tool for brand awareness, and ultimately results in
+                  increased revenues.
+                </p>
+              </li>
+            </ol>
+          </div>
+        </section>
+        <section class="slider">
+          <img class="slider__wave" src="assets/images/desktop/bg-pattern-wavy-white.svg" alt="" />
+          <div class="slider__main">
+            <h2 class="slider__heading"></h2>
+            <div class="slider__arrows">
+              <button id="left-arrow" class="slider__arrow" aria-label="Go back one slide">
+                <img src="assets/images/desktop/icon-arrow-previous.svg" alt="" />
+              </button>
+              <button id="right-arrow" class="slider__arrow" aria-label="Go forward one slide">
+                <img src="assets/images/desktop/icon-arrow-next.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <div class="slider__graphic">
+            <picture>
+              <source id="slide-mobile" srcset="" media="(max-width: 43.75em)" />
+              <source id="slide-tablet" srcset="" media="(max-width: 54.375em)" />
+              <img id="slide-desktop" src="" alt="" />
+            </picture>
+            <div class="slider__graphic-overlay">
+              <h3></h3>
+              <span></span>
+            </div>
+          </div>
+          <div></div>
+        </section>
+      </main>
+      <footer class="footer">
+        <img class="footer__wave" src="assets/images/desktop/bg-pattern-wave-red.svg" alt="" />
+        <h2 class="footer__heading">Let's build something great together.</h2>
+        <a class="footer__cta" href="#">Schedule a Call</a>
+      </footer>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
